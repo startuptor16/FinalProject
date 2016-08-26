@@ -1,0 +1,54 @@
+
+
+
+<div class= "video">
+  <a href="{{ctrl.CuisineOptions.Videos}}">Video</a>
+  </div>
+
+// 
+
+<div class="row">
+
+<div class="col-md-6  col-md-offset-3"> 
+
+<img class="img-responsive   picture" ng-src="{{ctrl.CuisineOptions.Image}}" alt="{{ctrl.CuisineOptions.Name}}">
+</div>
+</div>
+
+<!--   CHECK UP ANGULAR EMBEDED YOUTUBE -->
+
+
+
+<div>
+
+<div class= "ingredient_box">
+<ul>
+	<h3> Ingredients </h3>
+	<li ng-repeat="(ingredient, amount) in ctrl.CuisineOptions.Ingredients"> 
+
+		{{amount}} :	 {{ingredient}}
+	</li>
+</ul>
+</div>
+
+<div class= "directions_box">
+<ol>
+	<h3> Directions </h3>
+	<li ng-repeat="step in ctrl.CuisineOptions.Directions"> 
+			{{step}}
+	</li>
+</ol>
+</div>
+</div>
+
+
+<div class="row Back">
+<button class="btn btn-primary " ng-click= 'ctrl.cuisinePage(ctrl.CuisineOptions.Cuisine)'>back</button>
+</div>
+
+
+<!-- 
+<div class="button">
+	<button ng-click="ctrl.GoHome()">Back</button>
+     	
+</div> -->

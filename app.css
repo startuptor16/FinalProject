@@ -1,0 +1,111 @@
+
+
+.picture{					
+	margin-bottom: 75px;		
+}							
+							
+							
+.ingredient_box{			
+/*	background-color: yellow;
+*/	margin: 30px  0px   30px   300px;
+	text-align: center;
+	height: 250px;
+	width: 500px;
+	border: 3px solid black;
+}
+
+
+.Back{
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.video{
+	margin: 0 auto;
+	text-align: center;
+	height: 400px;
+	margin-bottom: 50px;
+	width: 500px ;
+}
+
+.Cuisines{
+ 	position: relative;
+ 	left: 150px;
+ 	margin-top: 25px;
+ 	margin-bottom: 50px;
+}
+
+.header-content-inner{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Cuisines_Title{
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.row1{
+
+	margin-top: 75px;
+	height: 226px;
+	position: relative;
+	left: 4%;
+	/*transform: translate(0, -20%)*/
+
+}
+.row2{
+	margin-top: 50px;
+	position: relative;
+	left: 4%;
+}
+
+
+
+
+.img-height-special {
+	height: 226px;
+	width: 340px;
+}
+
+.directions_box{
+	margin: 30px  0px   30px   260px;
+/*	background-color: #5bd75b;
+*/	text-align: center;
+	height: 250px;
+	width: 600px;
+	border: 3px solid blue;
+
+}
+
+/*.meal_pic{
+	background-color:  #80bfff;
+}*/
+
+
+
+.hoverImg .text-faded{
+	opacity:0;
+	transition: all 0.35s;
+	position: relative;
+	 left: 50%;
+	 transform: translate(0%, -50%)
+}
+/* hover.   set as defualt value*/
+
+.hoverImg:hover .text-faded{
+	opacity:1;
+}
+
+
+
+header{
+	margin-top: 125px;
+}
+
+container-fluid{
+	margin-top: 60px;
+}
+

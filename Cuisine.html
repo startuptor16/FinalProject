@@ -1,0 +1,14 @@
+<div class="button">
+	<button ng-click="ctrl.GoHome()">Back</button>
+     	<!-- ng-click="ctrl.FetchMeal()">Back  -->
+</div>
+
+
+
+<div class="Cuisine Labels">
+
+<button ng-repeat="item in ctrl.LoadCuisines" ng-click="ctrl.FetchMeal(item.Name)"
+> {{item.Name}}</button>
+
+</div>
+
